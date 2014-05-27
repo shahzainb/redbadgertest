@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Red Badger Coding Challenge</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <link href="stylesheets/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <link href="stylesheets/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <form class="pure-form pure-form-stacked" action="">
+        <fieldset>
+            <div class="pure-g-r">
+                <div class="pure-u-1-3">
+                    <label for="gridCoordinates">Grid Coordinates (example: 5,3) </label>
+                    <input class="push-bottom" id="gridCoordinates" type="text" placeholder="X,Y" maxlength="3" />
+
+                    <button type="button" id="drawGrid" class="pure-button pure-button-primary">Draw Grid</button>
+
+                    <label for="robotPosition">Robot Starting Position (example: 1,1,E) </label>
+                    <input class="push-bottom" id="robotPosition" type="text" placeholder="X,Y,Orientation" maxlength="5" />
+
+                    <button type="button" id="drawRobot" class="pure-button pure-button-primary">Draw Robot</button>
+                </div>
+
+                <div class="pure-u-1-3">
+                    <label for="instructions">Instructions: </label>
+                    <input class="push-bottom" id="instructions" type="text" maxlength="100" />
+
+                    <button type="button" id="runInstructions" class="pure-button pure-button-primary">Run instructions</button>
+                </div>
+
+                <div class="pure-u-1-3">
+                    <label for="outputData">Output:</label>
+                    <textarea id="outputData"></textarea>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+
+    <canvas id="martianCanvas"></canvas>
+
+    <script type="text/javascript" src="javascripts/paper-full.min.js"></script>
+    <script type="text/javascript" src="javascripts/martianRobots.min.js"></script>
+    <script type="text/javascript" src="javascripts/app.min.js"></script>
+
+    <!-- jquery is being loaded just for toastr -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+</body>
+
+</html>

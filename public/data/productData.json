@@ -1,0 +1,62 @@
+{"products": [
+    {
+        "name": "Green shirt",
+        "availableSizes": ["S", "M", "L"],
+        "rating": 5,
+        "attributes": ["shirt", "clothing", "green"]
+    },
+    {
+        "name": "Blue shirt",
+        "availableSizes": ["S", "L"],
+        "rating": 3,
+        "attributes": ["hoody", "clothing", "blue"]
+    },
+    {
+        "name": "Pink shirt",
+        "availableSizes": ["S", "M", "L"],
+        "rating": 2,
+        "attributes": ["sleeveless", "clothing", "pink"]
+    },
+    {
+        "name": "Dark Blue shirt",
+        "availableSizes": ["S", "L"],
+        "rating": 6,
+        "attributes": ["shirt", "clothing", "dark_blue"]
+    },
+    {
+        "name": "Navy shirt",
+        "availableSizes": ["S", "M", "L"],
+        "rating": 4,
+        "attributes": ["tshirt", "clothing", "navy"]
+    },
+    {
+        "name": "Red shirt",
+        "availableSizes": ["S", "L"],
+        "rating": 1,
+        "attributes": ["shortshirt", "clothing", "red", "long"]
+    },
+    {
+        "name": "Purple shirt",
+        "availableSizes": ["S", "M", "L"],
+        "rating": 10,
+        "attributes": ["shirt", "clothing", "purple"]
+    },
+    {
+        "name": "Orange pants",
+        "availableSizes": ["S", "L"],
+        "rating": 8,
+        "attributes": ["pants", "clothing", "orange", "tall"]
+    },
+    {
+        "name": "Lilac shorts",
+        "availableSizes": ["S", "M", "L"],
+        "rating": 9,
+        "attributes": ["shorts", "clothing", "lilac"]
+    },
+    {
+        "name": "White shirt",
+        "availableSizes": ["S", "L"],
+        "rating": 7,
+        "attributes": ["shirt", "clothing", "white"]
+    }
+]}
